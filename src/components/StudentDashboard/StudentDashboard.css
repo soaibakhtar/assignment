@@ -1,0 +1,54 @@
+/* components/StudentDashboard/StudentDashboard.css */
+.student-dashboard {
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .course-info {
+    display: flex;
+  }
+  
+  img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .details {
+    flex: 1;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .completed {
+    color: #28a745;
+  }
+  

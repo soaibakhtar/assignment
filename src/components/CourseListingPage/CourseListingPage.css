@@ -1,0 +1,97 @@
+/* components/CourseListingPage/CourseListingPage.css */
+.course-listing {
+    /* padding: 20px; */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+    /* border-bottom: 1px solid #ddd; */
+    
+  }
+  
+  .logo a {
+    height: 50px; /* Adjust the height based on your logo size */
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+  }
+  
+  .dashboard-button a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dashboard-button a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .item {
+    border-bottom: 2px solid #201f1f;
+    border-left: 2px solid #201f1f;
+    border-right: 2px solid #201f1f;
+    width: 300px;
+    height: 300px;
+    border-radius:20px 20px 0px 0px ;
+  }
+
+  .item img {
+    width: 100%;
+    height: 150px;
+    border-radius:18px 18px 0px 0px ;
+  }
+
+  .item .name {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+  }
+
+  .item .name p {
+    font-size: 20px;
+    margin: 10px 5px;
+    font-weight: 600;
+  }
+
+  .item .button-cl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 10px 10px 0 10px;
+    border-top: 1px solid rgba(63, 62, 62, 0.548);
+    /* margin-top: 5px; */
+    /* background-color: #201f1f; */
+  }
+
+  .item .button-cl a {
+    text-decoration: none;
+    border: 1px solid rgb(105, 102, 102);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 500;
+  }

@@ -1,0 +1,60 @@
+.course-listing {
+  /* padding: 20px; */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  /* margin-bottom: 20px; */
+  /* border-bottom: 1px solid #ddd; */
+  
+}
+
+.logo a {
+  height: 50px; /* Adjust the height based on your logo size */
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 10px 0 10px;
+}
+
+.dashboard-button a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #007bff;
+  color: #007bff;
+  border-radius: 5px;
+  margin: 0 10px 0 10px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-button a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+  
+.details-conatiner {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-conatiner img {
+  width: 100%;
+  height: 400px;
+  image-rendering: pixelated;
+}
+
+.details-second-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30px;
+}
